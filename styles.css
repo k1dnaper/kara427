@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+    display: flex;
+}
+menu{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    height: 763px;
+    width: 661px;
+    margin: auto;
+    background-color: darkgray;
+  
+}
+.inputWindow{
+    display: flex;
+    margin: 62px auto 0px auto;
+    width: 500px;
+    height: 61px;
+    background: #FFF;
+    font-size: 48px;
+}
+.findedUser{
+    height: 44px;
+    width: 500px;
+    margin: 0px auto 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E3E3E3;
+    border: 2px solid black;
+    font-size: 30px;
+}
+.findedUser:hover {
+    background-color: #65CDF9;
+  }
+.number0{
+    margin-bottom: 45px;
+}
+.addedUser, .addedUserVision{
+    display: none;
+    margin: 0px auto 0px auto;
+    height: 101px;
+    width: 503px;
+    background-color: #E27BEB;
+    font-size: 24px;
+    border: 1px solid black;
+}
+.button{
+    position: sticky;
+    left: 1000px;
+    width: 70px;
+    height: 70px;
+    font-size: 100px;
+    transform: rotate(45deg);
+    color: red;   
+}
